@@ -335,3 +335,4 @@ torch::Tensor multi_head_attention_better(
     // multiply with proj
     return faster_tensor_mat_mul(out, proj);
 }
+
